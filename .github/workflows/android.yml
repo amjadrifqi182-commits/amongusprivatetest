@@ -24,7 +24,7 @@ jobs:
           gradle-version: '8.9'
 
       - name: Extract project
-        run: unzip -q AmongUsPrivateTestAndroid.zip -d project
+        run: unzip -q AmongUsPrivateTestAndroid_FloatingMenu.zip -d project
 
       - name: Build APK
         run: cd project/AmongUsPrivateTestAndroid && gradle assembleDebug
